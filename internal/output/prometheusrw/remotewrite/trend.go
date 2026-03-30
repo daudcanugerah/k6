@@ -130,7 +130,8 @@ func newNativeHistogramSink(m *metrics.Metric) *nativeHistogramSink {
 			// it have to address.
 			// In the future, we could consider to add more tuning
 			// if it will be required.
-			NativeHistogramBucketFactor: 1.1,
+			NativeHistogramBucketFactor:    1.5,
+			NativeHistogramMaxBucketNumber: 128,
 		}),
 	}
 }
