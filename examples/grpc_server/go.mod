@@ -1,11 +1,11 @@
-module go.k6.io/k6/examples/grpc_server
+module github.com/daudcanugerah/k6/examples/grpc_server
 
 go 1.25.0
 
-replace go.k6.io/k6 => ../../
+replace github.com/daudcanugerah/k6 => ../../
 
 require (
-	go.k6.io/k6 v0.0.0-00010101000000-000000000000
+	github.com/daudcanugerah/k6 v0.0.0-00010101000000-000000000000
 	google.golang.org/grpc v1.79.3
 )
 
