@@ -125,12 +125,17 @@ func newNativeHistogramSink(m *metrics.Metric) *nativeHistogramSink {
 	return &nativeHistogramSink{
 		H: prometheus.NewHistogram(prometheus.HistogramOpts{
 			Name: m.Name,
+			Buckets: prometheus.ExponentialBuckets(
+				0.001, // start at 1ms
+				1.5,   // growth factor (dense at low latency)
+				30,    // number of buckets (~covers up to ~900s)
+			),
 			// 1.1 is the starting value suggested by Prometheus'
 			// It sounds good considering the general purpose
 			// it have to address.
 			// In the future, we could consider to add more tuning
 			// if it will be required.
-			NativeHistogramBucketFactor:    1.5,
+			NativeHistogramBucketFactor:    1.1,
 			NativeHistogramMaxBucketNumber: 128,
 		}),
 	}
