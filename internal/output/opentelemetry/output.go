@@ -4,6 +4,9 @@ package opentelemetry
 import (
 	"context"
 	"fmt"
+	"os"
+	"strconv"
+	"strings"
 	"time"
 
 	"github.com/sirupsen/logrus"
@@ -77,8 +80,7 @@ func (o *Output) Start() error {
 	o.logger.Debug("Starting output...")
 
 	if !o.config.SingleCounterForRate.Bool {
-		o.logger.Warn("Exporting rate metrics as a pair of counters is deprecated" +
-			" and will be removed in future releases. Please migrate to the new format.")
+		o.logger.Warn("Exporting rate metrics as a pair of counters is deprecated")
 	}
 
 	exp, err := getExporter(o.config)
@@ -95,8 +97,28 @@ func (o *Output) Start() error {
 		return fmt.Errorf("failed to create OpenTelemetry resource: %w", err)
 	}
 
+	// Parse custom buckets from env
+	buckets := parseHistogramBuckets()
+	views := []metric.View{}
+
+	if len(buckets) > 0 {
+		views = append(views, metric.NewView(
+			metric.Instrument{
+        			Name: "k6_*",
+            		Kind: metric.InstrumentKindHistogram,
+			},
+			metric.Stream{
+				Aggregation: metric.AggregationExplicitBucketHistogram{
+					Boundaries: buckets,
+				},
+			},
+		))
+		o.logger.Infof("Using custom histogram buckets: %v", buckets)
+	}
+
 	meterProvider := metric.NewMeterProvider(
 		metric.WithResource(res),
+		metric.WithView(views...),
 		metric.WithReader(
 			metric.NewPeriodicReader(
 				exp,
@@ -250,4 +272,20 @@ func normalizeUnit(vt metrics.ValueType) string {
 	default:
 		return ""
 	}
+}
+
+// parseHistogramBuckets reads a comma-separated env var and returns []float64
+func parseHistogramBuckets() []float64 {
+	val := os.Getenv("K6_OTEL_HISTOGRAM_BUCKETS")
+	if val == "" {
+		return nil
+	}
+	parts := strings.Split(val, ",")
+	buckets := make([]float64, 0, len(parts))
+	for _, p := range parts {
+		if v, err := strconv.ParseFloat(strings.TrimSpace(p), 64); err == nil {
+			buckets = append(buckets, v)
+		}
+	}
+	return buckets
 }
