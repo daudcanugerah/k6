@@ -9,10 +9,10 @@ import (
 
 	"github.com/grafana/sobek"
 	"github.com/redis/go-redis/v9"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/js/promises"
-	"go.k6.io/k6/lib"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
+	"github.com/daudcanugerah/k6/js/promises"
+	"github.com/daudcanugerah/k6/lib"
 )
 
 // Client represents the Client constructor (i.e. `new redis.Client()`) and

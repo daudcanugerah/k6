@@ -12,8 +12,8 @@ import (
 	"github.com/klauspost/compress/snappy"
 	"google.golang.org/protobuf/proto"
 
-	"go.k6.io/k6/cloudapi"
-	"go.k6.io/k6/internal/output/cloud/expv2/pbcloud"
+	"github.com/daudcanugerah/k6/cloudapi"
+	"github.com/daudcanugerah/k6/internal/output/cloud/expv2/pbcloud"
 )
 
 // metricsClient is a Protobuf over HTTP client for sending

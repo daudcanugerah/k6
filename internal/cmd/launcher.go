@@ -15,11 +15,11 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/grafana/k6provider"
 
-	"go.k6.io/k6/cloudapi"
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/ext"
+	"github.com/daudcanugerah/k6/cloudapi"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/errext/exitcodes"
+	"github.com/daudcanugerah/k6/ext"
 )
 
 // commandExecutor executes the requested k6 command line command.

@@ -9,15 +9,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/ext"
-	"go.k6.io/k6/internal/build"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/ext"
+	"github.com/daudcanugerah/k6/internal/build"
 )
 
 const (
 	commitKey      = "commit"
 	commitDirtyKey = "commit_dirty"
-	mainK6Path     = "go.k6.io/k6"
+	mainK6Path     = "github.com/daudcanugerah/k6"
 )
 
 // fullVersion returns the maximally full version and build information for

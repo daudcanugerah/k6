@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"go.k6.io/k6/metrics"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/metrics"
+	"github.com/daudcanugerah/k6/output"
 )
 
 const (

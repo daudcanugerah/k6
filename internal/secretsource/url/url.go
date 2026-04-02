@@ -19,9 +19,9 @@ import (
 	"github.com/tidwall/gjson"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/lib/types"
-	"go.k6.io/k6/secretsource"
+	"github.com/daudcanugerah/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/lib/types"
+	"github.com/daudcanugerah/k6/secretsource"
 	"golang.org/x/time/rate"
 )
 

@@ -19,9 +19,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/metrics"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/internal/lib/testutils"
+	"github.com/daudcanugerah/k6/metrics"
+	"github.com/daudcanugerah/k6/output"
 )
 
 type MetricsServer interface {

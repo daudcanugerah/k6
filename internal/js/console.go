@@ -10,7 +10,7 @@ import (
 	"github.com/grafana/sobek"
 	"github.com/sirupsen/logrus"
 
-	"go.k6.io/k6/js/common"
+	"github.com/daudcanugerah/k6/js/common"
 )
 
 // console represents a JS console implemented as a logrus.FieldLogger.

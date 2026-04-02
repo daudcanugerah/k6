@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/cmd/tests"
-	"go.k6.io/k6/internal/lib/testutils"
+	"github.com/daudcanugerah/k6/internal/cmd/tests"
+	"github.com/daudcanugerah/k6/internal/lib/testutils"
 )
 
 func TestGetCmdDeps(t *testing.T) {

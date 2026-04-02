@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"go.k6.io/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/lib/fsext"
 )
 
 func TestFileCacheOpen(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"syscall"
 
 	"github.com/sirupsen/logrus"
-	"go.k6.io/k6/internal/lib/strvals"
-	"go.k6.io/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/internal/lib/strvals"
+	"github.com/daudcanugerah/k6/lib/fsext"
 )
 
 // fileHookBufferSize is a default size for the fileHook's loglines channel.

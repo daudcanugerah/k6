@@ -13,7 +13,7 @@ import (
 
 	"github.com/pkg/browser"
 	"github.com/spf13/cobra"
-	"go.k6.io/k6/cmd/state"
+	"github.com/daudcanugerah/k6/cmd/state"
 )
 
 const (

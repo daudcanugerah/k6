@@ -10,8 +10,8 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/errext"
-	k6common "go.k6.io/k6/js/common"
+	"github.com/daudcanugerah/k6/errext"
+	k6common "github.com/daudcanugerah/k6/js/common"
 )
 
 // Abortf will shutdown the whole test run. This should

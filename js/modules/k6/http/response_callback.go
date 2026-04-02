@@ -6,7 +6,7 @@ import (
 	"slices"
 
 	"github.com/grafana/sobek"
-	"go.k6.io/k6/js/common"
+	"github.com/daudcanugerah/k6/js/common"
 )
 
 //nolint:gochecknoglobals

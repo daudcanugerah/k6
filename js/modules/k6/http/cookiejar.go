@@ -11,7 +11,7 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/js/common"
+	"github.com/daudcanugerah/k6/js/common"
 )
 
 // ErrJarForbiddenInInitContext is used when a cookie jar was made in the init context

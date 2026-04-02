@@ -5,10 +5,10 @@ import (
 	"net/http/cookiejar"
 
 	"github.com/grafana/sobek"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/lib/netext"
-	"go.k6.io/k6/lib/netext/httpext"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
+	"github.com/daudcanugerah/k6/lib/netext"
+	"github.com/daudcanugerah/k6/lib/netext/httpext"
 )
 
 // RootModule is the global module object type. It is instantiated once per test

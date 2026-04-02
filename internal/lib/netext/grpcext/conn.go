@@ -12,8 +12,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
 
 	protov1 "github.com/golang/protobuf/proto" //nolint:staticcheck,nolintlint // this is the old v1 version
 	"google.golang.org/grpc"

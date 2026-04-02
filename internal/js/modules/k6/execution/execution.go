@@ -9,11 +9,11 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 type (

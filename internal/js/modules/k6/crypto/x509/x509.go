@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
 )
 
 type (

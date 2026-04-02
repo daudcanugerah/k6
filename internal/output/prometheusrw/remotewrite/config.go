@@ -13,9 +13,9 @@ import (
 	"github.com/mstoykov/envconfig"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/output/prometheusrw/remote"
-	"go.k6.io/k6/internal/output/prometheusrw/sigv4"
-	"go.k6.io/k6/lib/types"
+	"github.com/daudcanugerah/k6/internal/output/prometheusrw/remote"
+	"github.com/daudcanugerah/k6/internal/output/prometheusrw/sigv4"
+	"github.com/daudcanugerah/k6/lib/types"
 )
 
 const (

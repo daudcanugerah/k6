@@ -14,14 +14,14 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/executor"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/lib/types"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/errext/exitcodes"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/lib/executor"
+	"github.com/daudcanugerah/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/lib/types"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 // configFlagSet returns a FlagSet with the default run configuration flags.

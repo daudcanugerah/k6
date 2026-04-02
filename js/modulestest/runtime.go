@@ -8,17 +8,17 @@ import (
 
 	"github.com/grafana/sobek"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/internal/js/compiler"
-	"go.k6.io/k6/internal/js/eventloop"
-	"go.k6.io/k6/internal/js/tc55/timers"
+	"github.com/daudcanugerah/k6/internal/js/compiler"
+	"github.com/daudcanugerah/k6/internal/js/eventloop"
+	"github.com/daudcanugerah/k6/internal/js/tc55/timers"
 
-	"go.k6.io/k6/internal/js/modules/k6/webcrypto"
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/internal/usage"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/webcrypto"
+	"github.com/daudcanugerah/k6/internal/lib/testutils"
+	"github.com/daudcanugerah/k6/internal/usage"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 // Runtime is a helper struct that contains what is needed to run a (simple) module test

@@ -9,11 +9,11 @@ import (
 	"github.com/grafana/sobek"
 	"github.com/mstoykov/k6-taskqueue-lib/taskqueue"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6error"
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
-	k6common "go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/promises"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/common"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/k6error"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/k6ext"
+	k6common "github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/promises"
 )
 
 func panicIfFatalError(ctx context.Context, err error) {

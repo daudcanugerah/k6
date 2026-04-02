@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"go.k6.io/k6/internal/lib/netext/grpcext"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
+	"github.com/daudcanugerah/k6/internal/lib/netext/grpcext"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
 
 	"github.com/bufbuild/protocompile"
 	"github.com/grafana/sobek"

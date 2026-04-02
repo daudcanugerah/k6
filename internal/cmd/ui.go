@@ -17,13 +17,13 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/internal/metrics/engine"
-	"go.k6.io/k6/internal/output/summary"
-	"go.k6.io/k6/internal/ui"
-	"go.k6.io/k6/internal/ui/pb"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/internal/metrics/engine"
+	"github.com/daudcanugerah/k6/internal/output/summary"
+	"github.com/daudcanugerah/k6/internal/ui"
+	"github.com/daudcanugerah/k6/internal/ui/pb"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/output"
 )
 
 const (

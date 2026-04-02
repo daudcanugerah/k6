@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go.k6.io/k6/internal/lib/consts"
+	"github.com/daudcanugerah/k6/internal/lib/consts"
 )
 
 func TestTimeoutError(t *testing.T) {

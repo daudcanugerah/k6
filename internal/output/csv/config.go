@@ -10,7 +10,7 @@ import (
 
 	"github.com/mstoykov/envconfig"
 
-	"go.k6.io/k6/lib/types"
+	"github.com/daudcanugerah/k6/lib/types"
 )
 
 // Config is the config for the csv output

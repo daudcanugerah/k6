@@ -7,8 +7,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
-	"go.k6.io/k6/internal/js/modules/k6/browser/log"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/k6ext"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/log"
 
 	"github.com/chromedp/cdproto/cdp"
 	cdppage "github.com/chromedp/cdproto/page"

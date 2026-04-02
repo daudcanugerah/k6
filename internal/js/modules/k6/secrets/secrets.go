@@ -4,10 +4,10 @@ package secrets
 import (
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/js/promises"
-	"go.k6.io/k6/secretsource"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
+	"github.com/daudcanugerah/k6/js/promises"
+	"github.com/daudcanugerah/k6/secretsource"
 )
 
 type (

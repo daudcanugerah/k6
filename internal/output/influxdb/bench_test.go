@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 func benchmarkInfluxdb(b *testing.B, t time.Duration) {

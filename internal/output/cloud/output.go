@@ -11,14 +11,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/cloudapi"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/usage"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
-	"go.k6.io/k6/output"
-	cloudv2 "go.k6.io/k6/output/cloud/expv2"
+	"github.com/daudcanugerah/k6/cloudapi"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/internal/build"
+	"github.com/daudcanugerah/k6/internal/usage"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
+	"github.com/daudcanugerah/k6/output"
+	cloudv2 "github.com/daudcanugerah/k6/output/cloud/expv2"
 )
 
 const (

@@ -9,11 +9,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/internal/execution"
-	"go.k6.io/k6/internal/ui/pb"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/types"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/internal/execution"
+	"github.com/daudcanugerah/k6/internal/ui/pb"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/lib/types"
 )
 
 func sumStagesDuration(stages []Stage) (result time.Duration) {

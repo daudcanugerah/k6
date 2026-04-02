@@ -3,7 +3,7 @@ package dashboard
 import (
 	"sort"
 
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 const (

@@ -8,10 +8,10 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/js/common"
-	httpModule "go.k6.io/k6/js/modules/k6/http"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/js/common"
+	httpModule "github.com/daudcanugerah/k6/js/modules/k6/http"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 // wsParams represent the parameters bag for websocket

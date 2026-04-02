@@ -11,12 +11,12 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/internal/js"
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/internal/loader"
-	"go.k6.io/k6/internal/usage"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/internal/js"
+	"github.com/daudcanugerah/k6/internal/lib/testutils"
+	"github.com/daudcanugerah/k6/internal/loader"
+	"github.com/daudcanugerah/k6/internal/usage"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 // TODO: rewrite and/or move these as integration tests to reduce boilerplate

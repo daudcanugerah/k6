@@ -9,9 +9,9 @@ import (
 
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/lib/consts"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/types"
+	"github.com/daudcanugerah/k6/internal/lib/consts"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/lib/types"
 )
 
 // DefaultGracefulStopValue is the graceful top value for all executors, unless

@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/errext/exitcodes"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
 	"gopkg.in/guregu/null.v3"
 )
 

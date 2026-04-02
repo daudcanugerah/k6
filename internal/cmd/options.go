@@ -8,10 +8,10 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/types"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/internal/build"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/lib/types"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 var (

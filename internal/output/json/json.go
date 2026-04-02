@@ -14,8 +14,8 @@ import (
 	"github.com/mailru/easyjson/jwriter"
 	"github.com/sirupsen/logrus"
 
-	"go.k6.io/k6/metrics"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/metrics"
+	"github.com/daudcanugerah/k6/output"
 )
 
 // TODO: add option for emitting proper JSON files (https://github.com/k6io/k6/issues/737)

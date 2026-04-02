@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/lib/types"
+	"github.com/daudcanugerah/k6/internal/lib/testutils"
+	"github.com/daudcanugerah/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/lib/types"
 )
 
 const testConfigFile = "/config.json"

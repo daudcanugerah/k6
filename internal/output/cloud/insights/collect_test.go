@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/cloudapi/insights"
-	"go.k6.io/k6/lib/netext/httpext"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/internal/cloudapi/insights"
+	"github.com/daudcanugerah/k6/lib/netext/httpext"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 func Test_Collector_CollectRequestMetadatas_DoesNothingWithEmptyData(t *testing.T) {

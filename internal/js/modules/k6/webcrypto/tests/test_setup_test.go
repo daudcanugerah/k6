@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	k6encoding "go.k6.io/k6/internal/js/modules/k6/encoding"
-	"go.k6.io/k6/internal/js/modules/k6/webcrypto"
-	"go.k6.io/k6/js/modulestest"
+	k6encoding "github.com/daudcanugerah/k6/internal/js/modules/k6/encoding"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/webcrypto"
+	"github.com/daudcanugerah/k6/js/modulestest"
 
 	"github.com/stretchr/testify/require"
 )

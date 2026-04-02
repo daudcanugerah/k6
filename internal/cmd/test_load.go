@@ -20,17 +20,17 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/ext"
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/js"
-	"go.k6.io/k6/internal/loader"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/errext/exitcodes"
+	"github.com/daudcanugerah/k6/ext"
+	"github.com/daudcanugerah/k6/internal/build"
+	"github.com/daudcanugerah/k6/internal/js"
+	"github.com/daudcanugerah/k6/internal/loader"
+	"github.com/daudcanugerah/k6/js/modules"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/metrics"
 )
 
 const (

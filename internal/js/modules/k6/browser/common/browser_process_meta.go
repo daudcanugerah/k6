@@ -3,7 +3,7 @@ package common
 import (
 	"os"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/storage"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/storage"
 )
 
 const (

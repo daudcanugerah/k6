@@ -15,9 +15,9 @@ import (
 
 	"github.com/pkg/browser"
 	"github.com/sirupsen/logrus"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/metrics"
+	"github.com/daudcanugerah/k6/output"
 )
 
 // extension holds the runtime state of the dashboard extension.

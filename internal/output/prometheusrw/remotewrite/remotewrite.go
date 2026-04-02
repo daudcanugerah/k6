@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"go.k6.io/k6/internal/output/prometheusrw/remote"
-	"go.k6.io/k6/internal/output/prometheusrw/stale"
+	"github.com/daudcanugerah/k6/internal/output/prometheusrw/remote"
+	"github.com/daudcanugerah/k6/internal/output/prometheusrw/stale"
 
-	"go.k6.io/k6/metrics"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/metrics"
+	"github.com/daudcanugerah/k6/output"
 
 	prompb "buf.build/gen/go/prometheus/prometheus/protocolbuffers/go"
 	"github.com/sirupsen/logrus"

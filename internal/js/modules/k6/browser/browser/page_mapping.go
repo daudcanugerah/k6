@@ -10,9 +10,9 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
-	k6common "go.k6.io/k6/js/common"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/common"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/k6ext"
+	k6common "github.com/daudcanugerah/k6/js/common"
 )
 
 // mapPage to the JS module.

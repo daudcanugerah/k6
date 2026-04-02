@@ -8,9 +8,9 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/ext"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/lib"
+	"github.com/daudcanugerah/k6/ext"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/lib"
 )
 
 const extPrefix string = "k6/x/"

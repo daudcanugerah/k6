@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/sirupsen/logrus"
-	"go.k6.io/k6/lib"
+	"github.com/daudcanugerah/k6/lib"
 )
 
 // ResultStatus represents the result status of a test.

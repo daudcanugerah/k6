@@ -6,8 +6,8 @@ import (
 	"hash"
 
 	"github.com/grafana/sobek"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
+	"github.com/daudcanugerah/k6/js/common"
+	"github.com/daudcanugerah/k6/js/modules"
 )
 
 // FIXME: SubtleCrypto is described as an "interface", should it be a nested module

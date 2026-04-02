@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/internal/cmd/tests"
+	"github.com/daudcanugerah/k6/errext/exitcodes"
+	"github.com/daudcanugerah/k6/internal/cmd/tests"
 )
 
 func TestRootCommandHelpDisplayCommands(t *testing.T) {

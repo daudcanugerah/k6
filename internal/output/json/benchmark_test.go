@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/internal/lib/testutils"
+	"github.com/daudcanugerah/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/output"
 )
 
 func BenchmarkFlushMetrics(b *testing.B) {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/js/modulestest"
+	"github.com/daudcanugerah/k6/js/modulestest"
 )
 
 func TestNewSharedArrayFromReusesExistingArrays(t *testing.T) {

@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/execution"
-	"go.k6.io/k6/internal/execution/local"
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/internal/usage"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/executor"
+	"github.com/daudcanugerah/k6/internal/build"
+	"github.com/daudcanugerah/k6/internal/execution"
+	"github.com/daudcanugerah/k6/internal/execution/local"
+	"github.com/daudcanugerah/k6/internal/lib/testutils"
+	"github.com/daudcanugerah/k6/internal/usage"
+	"github.com/daudcanugerah/k6/lib"
+	"github.com/daudcanugerah/k6/lib/executor"
 	"gopkg.in/guregu/null.v3"
 )
 

@@ -17,8 +17,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
-	"go.k6.io/k6/metrics"
-	"go.k6.io/k6/output"
+	"github.com/daudcanugerah/k6/metrics"
+	"github.com/daudcanugerah/k6/output"
 )
 
 const gzSuffix = ".gz"

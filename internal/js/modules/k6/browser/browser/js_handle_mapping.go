@@ -5,7 +5,7 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/common"
 )
 
 // mapJSHandle to the JS module.

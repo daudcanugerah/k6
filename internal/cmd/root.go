@@ -16,15 +16,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/ext"
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/log"
-	"go.k6.io/k6/secretsource"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/errext/exitcodes"
+	"github.com/daudcanugerah/k6/ext"
+	"github.com/daudcanugerah/k6/internal/build"
+	"github.com/daudcanugerah/k6/internal/log"
+	"github.com/daudcanugerah/k6/secretsource"
 
-	_ "go.k6.io/k6/internal/secretsource" // import it to register internal secret sources
+	_ "github.com/daudcanugerah/k6/internal/secretsource" // import it to register internal secret sources
 )
 
 const waitLoggerCloseTimeout = time.Second * 5

@@ -14,9 +14,9 @@ import (
 	cdpruntime "github.com/chromedp/cdproto/runtime"
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
-	"go.k6.io/k6/internal/js/modules/k6/browser/log"
-	k6metrics "go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/k6ext"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/log"
+	k6metrics "github.com/daudcanugerah/k6/metrics"
 )
 
 func convertBaseJSHandleTypes(

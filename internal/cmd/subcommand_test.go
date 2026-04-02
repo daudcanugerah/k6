@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/internal/cmd/tests"
-	"go.k6.io/k6/subcommand"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/internal/cmd/tests"
+	"github.com/daudcanugerah/k6/subcommand"
 )
 
 func TestExtensionSubcommands(t *testing.T) {

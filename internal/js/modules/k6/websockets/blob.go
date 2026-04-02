@@ -9,8 +9,8 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/internal/js/modules/k6/experimental/streams"
-	"go.k6.io/k6/js/common"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/experimental/streams"
+	"github.com/daudcanugerah/k6/js/common"
 )
 
 type blob struct {

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/lib/fsext"
 )
 
 // MakeMemMapFs creates a new in-memory filesystem with the given files.

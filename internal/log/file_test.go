@@ -11,7 +11,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/lib/fsext"
+	"github.com/daudcanugerah/k6/lib/fsext"
 )
 
 type nopCloser struct {

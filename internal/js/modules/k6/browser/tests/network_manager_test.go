@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
-	k6metrics "go.k6.io/k6/metrics"
+	"github.com/daudcanugerah/k6/internal/js/modules/k6/browser/common"
+	k6metrics "github.com/daudcanugerah/k6/metrics"
 
-	k6lib "go.k6.io/k6/lib"
-	k6types "go.k6.io/k6/lib/types"
+	k6lib "github.com/daudcanugerah/k6/lib"
+	k6types "github.com/daudcanugerah/k6/lib/types"
 )
 
 // TestURLSkipRequest checks that, since https://github.com/grafana/k6/commit/f29064ef, k6 doesn't

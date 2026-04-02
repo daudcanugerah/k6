@@ -7,8 +7,8 @@ package subcommand
 
 import (
 	"github.com/spf13/cobra"
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/ext"
+	"github.com/daudcanugerah/k6/cmd/state"
+	"github.com/daudcanugerah/k6/ext"
 )
 
 // Constructor is a function type that creates a new cobra.Command for a subcommand extension.

@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"time"
 
-	cog "go.k6.io/k6/internal/lib/summary/machinereadable/cog"
+	cog "github.com/daudcanugerah/k6/internal/lib/summary/machinereadable/cog"
 )
 
 type CounterValues struct {
