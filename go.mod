@@ -1,4 +1,4 @@
-module github.com/daudcanugerah/k6
+module go.k6.io/k6
 
 go 1.26.1
 
