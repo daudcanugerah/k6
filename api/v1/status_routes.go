@@ -7,10 +7,10 @@ import (
 	"io"
 	"net/http"
 
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/internal/execution"
-	"go.k6.io/k6/lib/executor"
+	"github.com/daudcanugerah/k6/errext"
+	"github.com/daudcanugerah/k6/errext/exitcodes"
+	"github.com/daudcanugerah/k6/internal/execution"
+	"github.com/daudcanugerah/k6/lib/executor"
 )
 
 func handleGetStatus(cs *ControlSurface, rw http.ResponseWriter, _ *http.Request) {
